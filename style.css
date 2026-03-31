@@ -24,9 +24,9 @@
         padding: 32px;}
       #box img {
         border-radius: 50%;
-        border: 5px solid #2b0101;
+        border: 5px solid #05011f;
         margin-bottom: 32px;
-        max width: 600px;}
+        width: 300px;}
         #box h1 {
         font-size: 42px;
         line-height: 52px; 
@@ -41,17 +41,18 @@
 
       #box p {
         max-width: 500px; 
-        margin: 32px auto;
+        margin: 32px;
         font-size: 24px; 
-        line-height: 34px;}
+        line-height: 34px;
+      color: #f895bb;}
 
         :root{
-          --subcor: pink }
+          --subcor: #a50140; }
 
           header {
             padding: 32px;
-            border-bottom: 3px solid var(--subcor)
-            background-color: rgb(245, 163, 174) }
+            border-bottom: 3px solid var(--subcor);
+            background-color: #4b0212; }
 
             header div {
               text-align: center; }
@@ -59,26 +60,36 @@
               .links {
                 text-align: center; }
               
-              .links{ color: #a50140;
+              .links{ color: var(--subcor);
                  font-size: 20px;
                  line-height: 30px;
                  margin:0 16px;
                  text-decoration: none;}
 
                .links a:hover{
-                 color: #a50140;
+                 color: var(--subcor);
                  transition: 600ms; 
                  font-size: 23px;}
 
                 #box h1{
-                  padding: 4px;}
+                  padding: 4px;
+                color: #f895bb;}
 
                 #box h2 {
-                  padding: 10px;}
+                  padding: 10px;
+                color: #f895bb;}
 
                 #box p:hover{
-                  font-size: 23px;}
+                  font-size: 23px}
 
                 #box a {
-                  color: #a50140;
+                  color: var(--subcor);
                   transition: 600ms;}
+
+                #linksFooter{                                                                    
+                  padding: 32px; }
+
+                #linksFooter a{
+                  padding-top: 32px;
+                  padding-bottom: 8px; 
+                  border-bottom: 3px solid var(--subcor); }
