@@ -55,20 +55,18 @@
             border-bottom: 3px solid var(--subcor);
             background-color: #4b0212; }
 
-            header div {
-              text-align: center; }
+           
 
               .links {
                 text-align: center; }
               
-              .links{ color: var(--subcor);
+              .links a { color: var(--subcor);
                  font-size: 20px;
                  line-height: 30px;
                  margin:0 16px;
                  text-decoration: none;}
 
                .links a:hover{
-                 color: var(--subcor);
                  transition: 600ms; 
                  font-size: 23px;}
 
@@ -87,10 +85,11 @@
                   color: var(--subcor);
                   transition: 600ms;}
 
-                #linksFooter{                                                                    
+                #linksFooters{                                                                    
                   padding: 32px; }
 
-                #linksFooter a{
+                #linksFooters a{
+                  text-decoration: none;
                   padding-top: 32px;
                   padding-bottom: 8px; 
                   border-bottom: 3px solid var(--subcor); }
